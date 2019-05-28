@@ -9,7 +9,7 @@ public class App
 
 	public static int[] getJogo( ) {
 		int[] jogo = new int[6];
-    	for (int i=0; i<10; i++)
+    	for (int i=0; i<6; i++)
     		jogo[i] = getNumero();
     	return jogo;
 	}
